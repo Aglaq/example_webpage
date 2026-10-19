@@ -3,52 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Flower Power</title>
   </head>
   <body>
     <!-- navbar -->
-    <a name="top"></a>
-    <div class="navbar-section">
+    <div id="navbar-section" id="top">
       <!-- name -->
       <h1>Flower Power</h1>
       <!-- nav menu -->
-      <div class="navmenu">
+      <nav id="navmenu">
         <ul>
           <!-- item1 -->
-          <li><a>Location</a></li>
+          <li><a href="#map-section">Our Location</a></li>
           <!-- item2 -->
-          <li><a>Gallery</a></li>
+          <li><a href="#gallery-section">Gallery</a></li>
           <!-- item3 -->
-          <li><a>Flowers</a></li>
+          <li><a href="#products-section">Our Products</a></li>
           <!-- item4 -->
-          <li><a>About Us</a></li>
+          <li><a href="#contact-section">Contact Info</a></li>
         </ul>
         <!-- end nav menu -->
-      </div>
+      </nav>
       <!-- end navbar -->
     </div>
 
     <!-- splash screen container -->
-    <div class="splash-screen-section">
+    <section id="splash-screen-section">
       <!-- heading -->
-      <h1>Flower Power - local flower shop</h1>
+      <h2>Flower Power - local flower store</h2>
       <!-- subheading -->
-      <h2>Buy preetiest buquets in the city</h2>
+      <h3>Buy prettiest bouquets in the city</h3>
       <!-- button -->
       <button>Check it out!</button>
       <!-- end splash screen container -->
-    </div>
+    </section>
 
     <!-- map container -->
-    <div class="map-section">
+    <section id="map-section">
       <!-- heading -->
-      <h1>Our locations</h1>
+      <h2>Our location</h2>
       <!-- link to the top -->
       <a href="#top">Top</a>
       <!-- map -->
-      <!-- MAP -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.0701434223656!2d2.1620075572902557!3d41.37256074024598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a267751faa99%3A0xa7dd75c2e739cf4c!2sBarcelona!5e0!3m2!1sen!2ses!4v1792412914141!5m2!1sen!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
       <!-- description paragraph -->
-      <div id="map-description">
+      <article id="map-description">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
           fringilla mi, eu rhoncus libero. Proin nec sapien nec felis fringilla
@@ -70,13 +77,13 @@
           luctus urna, sed suscipit felis. In tincidunt mollis purus, a
           porttitor leo congue ac. Phasellus auctor commodo dolor quis laoreet.
         </p>
-      </div>
+      </article>
       <!-- end map container -->
-    </div>
+    </section>
     <!-- gallery container -->
-    <div class="gallery-section">
+    <section id="gallery-section">
       <!-- heading -->
-      <h1>Gallery</h1>
+      <h2>Gallery</h2>
       <!-- link to the top -->
       <a href="#top">Top</a>
       <!-- pictures container -->
@@ -84,81 +91,217 @@
         <!-- picture1 -->
         <img
           class="gallery-picture"
-          src=""
-          alt="bouquet of purple flowers"
-          width="200"
-          height="200"
+          src="./images/yellow_flowers.jpg"
+          alt="yellow flowers inside store"
         />
         <!-- picture2 -->
         <img
           class="gallery-picture"
-          src=""
-          alt="bouquet of purple flowers"
-          width="200"
-          height="200"
+          src="./images/roses.jpg"
+          alt="roses laying on the table"
         />
         <!-- picture3 -->
         <img
           class="gallery-picture"
-          src=""
-          alt="bouquet of purple flowers"
-          width="200"
-          height="200"
+          src="./images/woman_in_store.jpg"
+          alt="woman inside flower store"
         />
         <!-- picture4 -->
         <img
           class="gallery-picture"
-          src=""
-          alt="bouquet of purple flowers"
-          width="200"
-          height="200"
+          src="./images/store_inside.jpg"
+          alt="interior of flower store with different flowers"
         />
       </div>
-
       <!-- end pictures container -->
       <!-- end gallery container -->
-    </div>
+    </section>
     <!-- menu container -->
-    <!-- heading -->
-    <!-- link to the top -->
-    <!-- pictures container -->
-    <!-- subcontainer1 -->
-    <!-- picture1 -->
-    <!-- paragraph1 -->
-    <!-- subcontainer2 -->
-    <!-- picture2 -->
-    <!-- paragraph2 -->
-    <!-- subcontainer3 -->
-    <!-- picture3 -->
-    <!-- paragraph3 -->
-    <!-- subcontainer4 -->
-    <!-- picture4 -->
-    <!-- paragraph4 -->
-    <!-- subcontainer5 -->
-    <!-- picture5 -->
-    <!-- paragraph5 -->
-    <!-- subcontainer6 -->
-    <!-- picture6 -->
-    <!-- paragraph6 -->
-    <!-- end pictures container -->
-    <!-- end menu container -->
+    <div id="products-section">
+      <!-- heading -->
+      <h2>Our Products</h2>
+      <!-- link to the top -->
+      <a href="#top">Top</a>
+      <!-- pictures container -->
+      <div>
+        <!-- subcontainer1 -->
+        <div class="product">
+          <!-- title1 -->
+          <h3 class="product-name">Roses</h3>
+          <!-- picture1 -->
+          <img
+            class="product-picture"
+            src="./images/roses2.jpg"
+            alt="roses in vase"
+          />
+          <!-- paragraph1 -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+            fringilla mi, eu rhoncus libero. Proin nec sapien nec felis
+            fringilla sollicitudin ut eget sem. Maecenas dictum odio ac maximus
+            pulvinar. Quisque elementum aliquet libero, ac faucibus tellus
+            volutpat sed.
+          </p>
+        </div>
+        <!-- subcontainer2 -->
+        <div class="product">
+          <!-- title1 -->
+          <h3 class="product-name">Poppies</h3>
+          <!-- picture2 -->
+          <img
+            class="product-picture"
+            src="./images/poppy.jpg"
+            alt="poppies in vase"
+          />
+          <!-- paragraph1 -->
+          <p>
+            Vivamus ultricies libero quam, in dignissim lorem faucibus vel.
+            Donec vestibulum, libero et suscipit ullamcorper, turpis justo
+            feugiat velit, at bibendum dui lectus a sapien. Sed sed pulvinar
+            nibh. Donec quis augue condimentum, interdum augue eu, pharetra
+            nulla. Sed euismod varius porta. Nunc ullamcorper urna id dui
+            euismod molestie.
+          </p>
+        </div>
+        <!-- subcontainer3 -->
+        <div class="product">
+          <!-- title3 -->
+          <h3 class="product-name">Tulips</h3>
+          <!-- picture3 -->
+          <img
+            class="product-picture"
+            src="./images/tulips.jpg"
+            alt="tulips in vase"
+          />
+          <!-- paragraph3 -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+            fringilla mi, eu rhoncus libero. Proin nec sapien nec felis
+            fringilla sollicitudin ut eget sem. Maecenas dictum odio ac maximus
+            pulvinar. Quisque elementum aliquet libero, ac faucibus tellus
+            volutpat sed.
+          </p>
+        </div>
+        <!-- subcontainer4 -->
+        <div class="product">
+          <!-- title4 -->
+          <h3 class="product-name">Violets</h3>
+          <!-- picture4 -->
+          <img
+            class="product-picture"
+            src="./images/violets.jpg"
+            alt="violets in vase"
+          />
+          <!-- paragraph4 -->
+          <p>
+            Vivamus ultricies libero quam, in dignissim lorem faucibus vel.
+            Donec vestibulum, libero et suscipit ullamcorper, turpis justo
+            feugiat velit, at bibendum dui lectus a sapien. Sed sed pulvinar
+            nibh. Donec quis augue condimentum, interdum augue eu, pharetra
+            nulla. Sed euismod varius porta. Nunc ullamcorper urna id dui
+            euismod molestie.
+          </p>
+        </div>
+        <!-- subcontainer5 -->
+        <div class="product">
+          <!-- title5 -->
+          <h3 class="product-name">Sunflowers</h3>
+          <!-- picture5 -->
+          <img
+            class="product-picture"
+            src="./images/sunflower.jpg"
+            alt="sunflowers in vase"
+          />
+          <!-- paragraph5 -->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu
+            fringilla mi, eu rhoncus libero. Proin nec sapien nec felis
+            fringilla sollicitudin ut eget sem. Maecenas dictum odio ac maximus
+            pulvinar. Quisque elementum aliquet libero, ac faucibus tellus
+            volutpat sed.
+          </p>
+        </div>
+        <!-- subcontainer6 -->
+        <div class="product">
+          <!-- title1 -->
+          <h3 class="product-name">Mixed</h3>
+          <!-- picture6 -->
+          <img
+            class="product-picture"
+            src="./images/mixed.jpg"
+            alt="mixed flowers in vase"
+          />
+          <!-- paragraph6 -->
+          <p>
+            Vivamus ultricies libero quam, in dignissim lorem faucibus vel.
+            Donec vestibulum, libero et suscipit ullamcorper, turpis justo
+            feugiat velit, at bibendum dui lectus a sapien. Sed sed pulvinar
+            nibh. Donec quis augue condimentum, interdum augue eu, pharetra
+            nulla. Sed euismod varius porta. Nunc ullamcorper urna id dui
+            euismod molestie.
+          </p>
+          <!-- end pictures container -->
+        </div>
+        <!-- end products container -->
+      </div>
+    </div>
 
     <!-- team container -->
-    <!-- heading -->
-    <!-- link to the top -->
-    <!-- team pictures container -->
-    <!-- picture1 -->
-    <!-- picture2 -->
-    <!-- picture3 -->
-    <!-- picture4 -->
-    <!-- picture5 -->
-    <!-- picture6 -->
-    <!-- end team pictures container -->
-    <!-- end team container -->
+    <section id="map-section">
+      <!-- heading -->
+      <h2>Our team</h2>
+      <!-- link to the top -->
+      <a href="#top">Top</a>
+      <!-- team pictures container -->
+      <div>
+        <!-- picture1 -->
+        <img
+          class="team-picture"
+          src="./images/dog1.jpg"
+          alt="dog with flowers"
+        />
+        <!-- picture2 -->
+        <img
+          class="team-picture"
+          src="./images/dog2.jpg"
+          alt="dog with flowers"
+        />
+        <!-- picture3 -->
+        <img
+          class="team-picture"
+          src="./images/dog3.jpg"
+          alt="dog with flowers"
+        />
+        <!-- picture4 -->
+        <img
+          class="team-picture"
+          src="./images/dog4.jpg"
+          alt="dog with flowers"
+        />
+        <!-- picture5 -->
+        <img
+          class="team-picture"
+          src="./images/dog5.jpg"
+          alt="dog with flowers"
+        />
+        <!-- picture6 -->
+        <img
+          class="team-picture"
+          src="./images/dog6.jpg"
+          alt="dog with flowers"
+        />
+        <!-- end team pictures container -->
+      </div>
+      <!-- end team container -->
+    </section>
 
-    <!-- footer -->
-    <!-- name -->
-    <!-- address -->
-    <!-- phone number -->
+    <footer id="contact-section">
+      <!-- name -->
+      <p>FLOWER POWER - best flowers in the city!</p>
+      <!-- address -->
+      <p>Sants-Montjuïc, 08004 Barcelona, Spain</p>
+      <!-- phone number -->
+      <p>+345 456 456 456</p>
+    </footer>
   </body>
 </html>
