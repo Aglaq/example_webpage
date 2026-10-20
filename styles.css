@@ -117,6 +117,37 @@ button {
   padding: 0.5em;
 }
 
-.top-link {
+#gallery-section div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px;
+}
+
+#team-section div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 20px;
+}
+
+#products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  margin: 30px;
+}
+
+.product .top-link {
   color: black;
 }
