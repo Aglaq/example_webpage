@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Avoid text overflows */
 p,
 h1,
@@ -76,13 +80,16 @@ a:visited {
 
 #splash-screen-section {
   background-image: url("images/background.png");
-  background-color: #cccccc;
-  background-size: 100% 100%;
-  padding: 200px;
-  color: white;
+  /* background-color: #cccccc; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  /* padding: 200px; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 #splash-screen-section h2 {
@@ -154,16 +161,11 @@ button {
   margin: 30px;
 }
 
-/* footer {
-  background-color: black;
-  color: white;
-} */
-
 footer p {
   margin: 15px;
 }
 
-.orangeText:visited {
+.orangeText:visited .orangeText:link {
   text-decoration: none;
   color: orange;
 }
@@ -178,9 +180,6 @@ footer p {
   width: 25px;
   height: 25px;
   color: white;
-}
-
-#phone {
   margin-right: 15px;
 }
 
