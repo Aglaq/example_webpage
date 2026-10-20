@@ -77,19 +77,32 @@ h1 {
   margin: 1em;
 }
 
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.orangeText:link {
+  text-decoration: none;
+  color: orange;
+}
+
 a:visited {
   text-decoration: none;
   color: white;
 }
 
+.orangeText:visited {
+  text-decoration: none;
+  color: orange;
+}
+
 #splash-screen-section {
   background-image: url("images/background.png");
-  /* background-color: #cccccc; */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   height: 100vh;
-  /* padding: 200px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -183,11 +196,6 @@ footer p {
 
 address {
   padding: 20px 0;
-}
-
-.orangeText:visited {
-  text-decoration: none;
-  color: orange;
 }
 
 .icon-box {
