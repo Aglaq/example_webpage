@@ -154,6 +154,11 @@ button {
   margin: 30px;
 }
 
+/* footer {
+  background-color: black;
+  color: white;
+} */
+
 footer p {
   margin: 15px;
 }
@@ -161,10 +166,6 @@ footer p {
 .orangeText:visited {
   text-decoration: none;
   color: orange;
-}
-
-#companyname-footer {
-  font-size: 30px;
 }
 
 .icon-box {
@@ -176,6 +177,7 @@ footer p {
 .icon-box img {
   width: 25px;
   height: 25px;
+  color: white;
 }
 
 #phone {
