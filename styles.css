@@ -136,9 +136,13 @@ button {
 
 #gallery-section div {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
   margin: 20px;
+}
+
+#gallery-picture4 {
+  grid-column: 1 /-1;
 }
 
 #team-section div {
@@ -207,6 +211,12 @@ address {
 @media all and (max-width: 1200px) {
   #team-section div {
     grid-template-columns: 1fr 1fr;
+  }
+  #gallery-section div {
+    grid-template-columns: 1fr 1fr;
+  }
+  #gallery-picture4 {
+    grid-column: 2 / -1;
   }
 }
 
