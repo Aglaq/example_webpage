@@ -1,16 +1,44 @@
-p {
-  color: red;
+*:not(dialog) {
+  margin: 0;
+  padding: 0;
 }
 
-h1,
-h2 {
-  color: purple;
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
 
-.green-color {
-  color: green;
+#navbar-section {
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#super-special {
-  color: aqua;
+h1 {
+  padding: 0.5em;
 }
+
+#navmenu {
+  padding: 0.5em;
+}
+
+#navmenu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+#navmenu ul li {
+  margin: 1em;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* #splash-screen-section {
+  background-image: url("images/dog3.jpg");
+  background-color: #cccccc;
+} */
