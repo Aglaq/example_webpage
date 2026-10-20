@@ -238,4 +238,7 @@ address {
   #gallery-section div {
     grid-template-columns: 1fr;
   }
+  #gallery-picture4 {
+    grid-column: 1 / -1;
+  }
 }
