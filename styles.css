@@ -35,6 +35,8 @@ body {
 
 h2 {
   font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 #navbar-section {
@@ -148,6 +150,30 @@ button {
   margin: 30px;
 }
 
-.product .top-link {
-  color: black;
+footer p {
+  margin: 15px;
+}
+
+.orangeText:visited {
+  text-decoration: none;
+  color: orange;
+}
+
+#companyname-footer {
+  font-size: 30px;
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-box img {
+  width: 25px;
+  height: 25px;
+}
+
+#phone {
+  margin-right: 15px;
 }
